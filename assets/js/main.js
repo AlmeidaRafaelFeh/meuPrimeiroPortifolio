@@ -46,10 +46,12 @@ function updateLanguages(profileData) {
 function updatePortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio');
     portfolio.innerHTML = profileData.portfolio.map(project => {
-        return `<li>
+        return `
+        <li>
         <h3${project.github ? ' class="github"' : ''}>${project.name}</h3>
         <a href="${project.url}" target="_blank">${project.url}</a>                
-    </li>`;
+        </li>
+    `;
     }).join('');
 }
 
@@ -57,16 +59,12 @@ function updateExperience(profileData) {
     const professionalExperience = document.getElementById('profile.professionalExperience');
     professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
         return `<li>
-        <h3 class="title">${experience.name}</h3>
-        <p class="period">${experience.period}</p>
-        <p>
-            <li>• Reescrevi, estilizei e programei sites das atividades da Dio.me;</li>
-            <li>• Aprendi a manipular o DOM;</li>
-            <li>• Adicionei modificações aos projetos através do Git;</li>
-            <li>• Participante do Santander Bootcamp 2023 - Fullstack Java+Angular;</li>
-        </p>                                               
-    </li>`
-    }).join('')
+            <h3 class="title">${experience.name}</h3>
+            <p class="period">${experience.period}</p>
+            <p>${experience.description}</p>               
+            
+        </li>`;
+    }).join('');
 }
 
 (async () => {

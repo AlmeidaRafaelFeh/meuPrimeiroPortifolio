@@ -57,12 +57,8 @@
     {
       "name": "Experiência como Voluntário e Estudante / Dio.me",
       "period": "jan 2023 - até o momento",
-      "description": [
-       "• Reescrevi, estilizei e programei sites das atividades da Dio.me;",
-       "• Aprendi a manipular o DOM;", 
-       "• Adicionei modificações aos projetos através do Git;",
-       "• Participante do Santander Bootcamp 2023 - Fullstack Java+Angular;"
-      ]                    
+      "description": "Reescrevi, estilizei e programei sites das atividades da Dio.me, aprendi a manipular o DOM e adicionar alterações aos projetos através do terminal git. Fui participante do Santander Bootcamp 2023 - Fullstack Java+Angular;"
+                  
     }
   ]
 }
