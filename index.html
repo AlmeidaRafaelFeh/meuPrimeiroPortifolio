@@ -32,7 +32,7 @@
     <header class="header">
     <img src="./assets/images/fotoPerfil.jpeg" class="photo" alt="Foto de Perfil" id="profile.photo">
     
-    <h1 class="title">Olá, <br> eu sou <span id="profile.name">carregando</span></h1>
+    <h1 class="title">Olá, <br> eu sou <span class="title" id="profile.name">carregando</span></h1>
     
     <div class="information">   
     <p class="job" id="profile.job">carregando</p>
@@ -56,7 +56,7 @@
         <div class="skills">
     <section class="tools">
             <h3>Habilidades Profissionais:</h3>
-            <ul>
+            <ul id="profile.skills.hardSkills">
                 <li>
                     <img src="./assets/images/icons/html.svg" alt="html" title="html" class="html">
                 </li>
@@ -73,12 +73,9 @@
            </section>
            <section class="personal">
             <h3>Habilidades Pessoais:</h3>
-            <ul>
-                <li>Criativo</li>
-                <li>Comunicativo</li>
-                <li>Organizado</li>                
-                <li>Responsável</li>
-                <li>Perseverante</li>
+            <ul id="profile.skills.softSkills">
+                <li>Carregando</li>
+                
             </ul>
            </section>
         </div>
@@ -90,9 +87,8 @@
         <h2>Idiomas</h2>
     </button>
         <div class="content">
-         <ul class="languages">
-           <li>Português</li>
-           <li>Inglês Avançado</li>
+         <ul class="languages" id="profile.languages">
+           <li>Carregando</li>           
          </ul>
         </div>
     </section>
@@ -102,17 +98,17 @@
            <h2>Projects</h2>
        </button>
            <div class="content">
-            <ul class="portfolio">
+            <ul class="portfolio" id="profile.portifolio">
+                <li>
+                    <h3 class="github">Site Super Mario Bros - O Filme</h3>
+                    <a href="https://almeidarafaelfeh.github.io/Projeto-Mario/" target="_blank">https://almeidarafaelfeh.github.io/Projeto-Mario/</a>                
+                </li>
             <li>
-                <p class="title github">Site Super Mario Bros - O Filme</p>
-                <a href="https://almeidarafaelfeh.github.io/Projeto-Mario/" target="_blank">https://almeidarafaelfeh.github.io/Projeto-Mario/</a>                
-            </li>
-            <li>
-                <p class="title github">Site The Last of us</p>
+                <h3 class="github">Site The Last of us</h3>
                 <a href="https://almeidarafaelfeh.github.io/projeto-the-last-of-us/" target="_blank">https://almeidarafaelfeh.github.io/projeto-the-last-of-us/</a>                
             </li>
             <li>
-                <p class="title github">Calculadora Animada</p>
+                <h3 class="github">Calculadora Animada</h3>
                 <a href="https://almeidarafaelfeh.github.io/calculadora/" target="_blank">https://almeidarafaelfeh.github.io/calculadora/</a>                
             </li>        
             </ul>
@@ -124,7 +120,7 @@
            <h2>Experiência como Voluntário / Estudante</h2>
        </button>
            <div class="content">
-            <ul class="experience">
+            <ul class="experience" id="profile.professionalExperience">
             <li>
                 <h3 class="title">Front-End Developer / dio.me </h3>
                 <p class="period">Jan 2023 - Current</p>
