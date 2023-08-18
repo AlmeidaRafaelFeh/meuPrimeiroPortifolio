@@ -16,7 +16,7 @@
     display: inline-block;    
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(/assets/images/icons/header.svg);
+    background-image: url('../images/icons/header.svg');
 }
 
 .header .photo{
@@ -60,20 +60,20 @@
 }
 
 .information .job::before {
-    background-image: url(../images/icons/job.svg);
+    background-image: url('../images/icons/job.svg');
 }
 
 .information .location::before {
-    background-image: url(../images/icons/location.svg);
+    background-image: url('../images/icons/location.svg');
 }
 
 .information .email::before {
-    background-image: url(../images/icons/email.svg);
+    background-image: url('../images/icons/email.svg');
 }
 
 .information .phone::before {
-    background-image: url(../images/icons/phone.svg);
+    background-image: url('../images/icons/phone.svg');
 }
 .information .linkedin::before{
-    background-image: url(../images/icons/linkedin.svg);
+    background-image: url('../images/icons/linkedin.svg');
 }
